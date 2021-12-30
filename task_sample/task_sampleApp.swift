@@ -12,7 +12,7 @@ struct task_sampleApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(UserData()) 
+                .environmentObject(UserData())
         }
     }
 }
